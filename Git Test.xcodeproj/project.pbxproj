@@ -21,6 +21,7 @@
 		CD861AC219079EF600ABA7E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD861AA419079EF600ABA7E0 /* UIKit.framework */; };
 		CD861ACA19079EF600ABA7E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD861AC819079EF600ABA7E0 /* InfoPlist.strings */; };
 		CD861ACC19079EF600ABA7E0 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD861ACB19079EF600ABA7E0 /* Git_TestTests.m */; };
+		CD861AD71907A59E00ABA7E0 /* DMZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD861AD61907A59E00ABA7E0 /* DMZTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CD861AC719079EF600ABA7E0 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		CD861AC919079EF600ABA7E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD861ACB19079EF600ABA7E0 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CD861AD51907A59E00ABA7E0 /* DMZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMZTest.h; sourceTree = "<group>"; };
+		CD861AD61907A59E00ABA7E0 /* DMZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMZTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CD861AB219079EF600ABA7E0 /* Main.storyboard */,
 				CD861AB519079EF600ABA7E0 /* DMZViewController.h */,
 				CD861AB619079EF600ABA7E0 /* DMZViewController.m */,
+				CD861AD51907A59E00ABA7E0 /* DMZTest.h */,
+				CD861AD61907A59E00ABA7E0 /* DMZTest.m */,
 				CD861AB819079EF600ABA7E0 /* Images.xcassets */,
 				CD861AA719079EF600ABA7E0 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				CD861AB719079EF600ABA7E0 /* DMZViewController.m in Sources */,
 				CD861AB119079EF600ABA7E0 /* DMZAppDelegate.m in Sources */,
 				CD861AAD19079EF600ABA7E0 /* main.m in Sources */,
+				CD861AD71907A59E00ABA7E0 /* DMZTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
